@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_timekillerj_jhttp_1740521295407-pr-trigger-input-set
+  identifier: Build_timekillerj_jhttp_1740521295407prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_timekillerj_jhttp_1740521295407
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
